@@ -1,0 +1,72 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@600&family=Inconsolata:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,500;1,700;1,900&family=Quicksand:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;/*desabilitar a barra de rolagem lateral*/
+    position: relative;
+}
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+     
+}
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}   
+
+.banner h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+    text-shadow: 2px 2px 1px black;
+}
+.banner p{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-size: 30px;
+text-shadow: 1px 1px 0.5px black;
+    margin-top: 2%;
+}
+.banner button {
+    padding: 15px 25px;
+    margin-top: 25px;
+    font-size: 10px;
+    background-color: yellow;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px rgba(0, 0, 0, 0.377);
+    border: 2px 2px 2px;
+    text-transform: uppercase;/*todas as letras maiusculas*/
+    letter-spacing: 2px; /*espaço entre as letras*/
+}
+.banner button:hover{
+    opacity: .8;
+}
+   
+
