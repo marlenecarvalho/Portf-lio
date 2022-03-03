@@ -54,14 +54,28 @@ header{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+   
     
 
 }
-.menu-link{
+.menu-item{
     font-family: var(--font-marlene);
     font-size:2rem;
-    top:5rem;
-
+    margin-top: 1rem;
+    transition: color 1s;
+    
+}
+.menu-link:hover{
+    color:purple;
+}
+.socialmedia{
+    position: absolute;
+    bottom: 2rem;
+    text-align:center;
+    padding:20px;
+    
 }
 .img-wrapper{
     width: 100%;
