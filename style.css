@@ -67,15 +67,31 @@ header{
     transition: color 1s;
     
 }
+.menu-link{
+    color: black;
+}
 .menu-link:hover{
     color:purple;
 }
 .socialmedia{
     position: absolute;
     bottom: 2rem;
-    text-align:center;
-    padding:20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     
+}
+.socialmedia i{
+    background-color: purple;
+    border-radius: 50%;
+    color: rgb(245, 245, 245);
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
 }
 .img-wrapper{
     width: 100%;
