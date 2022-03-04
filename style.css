@@ -41,6 +41,7 @@
     box-shadow: 2px 2px 2px black;
     transition: transform 1s;
 }
+/*junto com a linha 3, formar um x */
 .show-menu #line1{
     transform: rotate(45deg) translate(.3rem, .40rem);
 }
