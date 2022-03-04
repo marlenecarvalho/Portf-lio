@@ -39,11 +39,18 @@
     height: .1rem;
     background-color: white;
     box-shadow: 2px 2px 2px black;
+    transition: transform 1s;
+}
+.show-menu #line1{
+    transform: rotate(45deg) translate(.3rem, .40rem);
 }
 /*com o menu aberto a linha do meio não vai existir*/
 .show-menu #line2{
     opacity: 0;
     visibility: hidden;
+}
+.show-menu #line3{
+    transform: rotate(-45deg) translate(.1rem, -.42rem);
 }
 header{
     width: 100%;
